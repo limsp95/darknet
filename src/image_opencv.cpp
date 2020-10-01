@@ -6,7 +6,7 @@
 #include "image.h"
 
 
-#image input
+//image input
 using namespace cv;
 
 extern "C" {
