@@ -80,6 +80,7 @@ void resize_yolo_layer(layer *l, int w, int h)
 #endif
 }
 
+//get yolo box
 box get_yolo_box(float *x, float *biases, int n, int index, int i, int j, int lw, int lh, int w, int h, int stride)
 {
     box b;
