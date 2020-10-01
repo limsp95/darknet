@@ -5,6 +5,8 @@
 #include "opencv2/opencv.hpp"
 #include "image.h"
 
+
+#image input
 using namespace cv;
 
 extern "C" {
